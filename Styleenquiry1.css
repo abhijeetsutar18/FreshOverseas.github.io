@@ -1,0 +1,156 @@
+body {
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    height: 10.7vh;
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 0px;
+    height: 100vh;
+    background-image: url('Images/mobile3.jpg');
+    position: Fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+    .banner h1 {
+        padding-top: 45%;
+        font-size: 1.1rem;
+        font-family: arial;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px #000000;
+        color: white;
+    }
+
+.logoim {
+    height: 60%;
+    width: 80%;
+    margin-top: .76rem;
+    object-fit: cover;
+    margin-left: .4rem;
+    object-position: -30px 0;
+}
+
+nav ul {
+    position: fixed;
+    margin-top: 1vh;
+    left: -100%;
+    background-color: rgb(35,35,35);
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+    nav ul li {
+        margin: 40px 0;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+            nav ul li a.active, nav ul li a:hover {
+                color: #a0ff67;
+                background: none;
+            }
+
+nav .menubtn i {
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    padding-right: 5%;
+    padding-top: 7%;
+}
+
+#click {
+    display: none;
+}
+
+    #click:checked ~ ul {
+        left: 0;
+        transition: all 0.4s ease;
+    }
+
+
+
+.container1 {
+    width: 100%;
+    position: relative;
+    top: 20rem;
+    background-color: rgb(255,255,255,.84);
+    backdrop-filter: blur(8px);
+    height: 57rem;
+}
+.enqform {
+    width: 80%;
+    position: relative;
+    float: right;
+    height: 47rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(92,92,92,.2);
+    border-radius: 10px;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 1.2rem;
+    box-shadow: 0px 10px 10px rgb(6,36,9,.4);
+}
+
+    .enqform h2 {
+        text-align: center;
+    }
+
+.tbox {
+    width:100%;
+    height:2rem;
+}
+
+#submit {
+    width:30%;
+    margin-left:35%;
+}
+
+
+.sp1 {
+    width: 100%;
+    height: 3.5rem;
+}
+
+/*Footer*/
+.foot {
+    width: 100%;
+    bottom: 0;
+    height: 4rem;
+    float: right;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+}
+
+    .foot p {
+        text-align: center;
+        padding-left: 4%;
+        padding-right: 4%;
+        font-size: 0.8rem;
+        padding-top: 2.5%;
+    }
